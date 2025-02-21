@@ -1,0 +1,17 @@
+# List of illegal items (use Bukkit Material names)
+illegal-items:
+  - BEDROCK
+  - COMMAND_BLOCK
+  - BARRIER
+  - STRUCTURE_BLOCK
+  - STRUCTURE_VOID
+  - JIGSAW
+  - LIGHT
+  - DEBUG_STICK
+
+# Message sent to player when illegal item is removed
+warning-message: "&cIllegal item detected and removed. Further use may result in punishment."
+
+# Broadcast message when illegal item is detected
+# Available placeholders: {player}, {item}
+broadcast-message: "&4[WARNING] &c{player} attempted to use an illegal item ({item})!"

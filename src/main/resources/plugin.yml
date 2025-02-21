@@ -1,0 +1,4 @@
+name: IllegalItemDetector
+version: '1.0-SNAPSHOT'
+main: club.somc.illegalItemDetector.IllegalItemDetector
+api-version: '1.21'
